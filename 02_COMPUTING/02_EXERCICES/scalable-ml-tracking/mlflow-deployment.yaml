@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlflow-deployment
+
+spec:
+  selector:
+    matchLabels:
+      app: mlflow-dashboard
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: mlflow-dashboard
+    spec:
+      containers:
+        - name: mlflow-server
+          image: jedha/sample-mlflow-server
+          env:
+            - name: ARTIFACT_ROOT
+              value: 
+            - name: AWS_ACCESS_KEY_ID
+              value: 
+            - name: AWS_SECRET_ACCESS_KEY
+              value: 
+            - name: BACKEND_STORE_URI
+              value: 
+            - name: PORT
+              value: "8080"
+          ports:
+            - containerPort: 8080
