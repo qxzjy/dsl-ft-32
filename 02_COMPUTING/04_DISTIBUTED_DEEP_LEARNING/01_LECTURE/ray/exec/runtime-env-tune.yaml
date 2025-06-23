@@ -1,0 +1,8 @@
+working_dir: .
+pip:
+  - ray[tune]
+  - torch
+  - torchvision
+  - numpy
+  - joblib
+  - optuna

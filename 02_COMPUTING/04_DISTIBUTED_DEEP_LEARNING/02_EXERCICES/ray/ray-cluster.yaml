@@ -1,0 +1,19 @@
+head:
+  enableInTreeAutoscaling: true
+  resources:
+    limits:
+      cpu: "2"
+      memory: "4G"
+    requests:
+      cpu: "2"
+      memory: "4G"
+
+worker:
+  replicas: 1
+  resources:
+    limits:
+      cpu: "3"
+      memory: "5G"
+    requests:
+      cpu: "3"
+      memory: "5G"

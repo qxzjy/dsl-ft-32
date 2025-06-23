@@ -1,0 +1,6 @@
+working_dir: .
+pip:
+  - ray[train]
+  - torch
+  - torchvision
+  - numpy
