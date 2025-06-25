@@ -1,0 +1,19 @@
+## dbt/models/sources.yml
+version: 2
+
+sources:
+  - name: fitconnect
+    database: raw
+    schema: fitconnect
+    description: FitConnect app s OLTP source data
+    tables:
+      - name: users
+        description: User authentication and account status.
+      - name: profiles
+        description: User demographic and fitness profile.
+      - name: workouts
+        description: Records of individual workout sessions.
+      - name: workout_exercises
+        description: Exercises performed during each workout.
+      - name: exercises
+        description: Library of all available exercises.

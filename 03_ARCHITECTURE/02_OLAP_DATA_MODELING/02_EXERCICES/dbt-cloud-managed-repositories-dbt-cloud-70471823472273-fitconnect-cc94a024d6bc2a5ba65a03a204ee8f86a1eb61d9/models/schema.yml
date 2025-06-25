@@ -1,0 +1,38 @@
+## ===============================
+## dbt/models/schema.yml
+## ===============================
+version: 2
+
+models:
+  - name: fct_user_workout_performance_by_period
+    description: Time-grain summary of user workout performance by month.
+    columns:
+      - name: user_id
+        tests: [not_null]
+      - name: month_start
+        tests: [not_null]
+  - name: fct_user_workout_performance
+    description: Summary of user workout performance including workout count, average durations, calories, and metrics per exercise.
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+          - unique
+      - name: total_workouts
+        tests:
+          - not_null
+      - name: avg_workout_duration
+      - name: avg_calories_burned
+      - name: avg_rating
+      - name: avg_reps
+      - name: avg_weight
+      - name: avg_exercise_duration
+  - name: fct_user_exercise_stats
+    description: Metrics per exercise and time period.
+    columns:
+      - name: exerciseid
+        tests:
+          - not_null
+      - name: period_start
+        tests:
+          - not_null
