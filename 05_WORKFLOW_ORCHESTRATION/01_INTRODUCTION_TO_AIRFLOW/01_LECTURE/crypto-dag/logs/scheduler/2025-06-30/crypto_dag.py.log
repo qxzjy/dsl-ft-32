@@ -1,0 +1,946 @@
+[2025-06-30 09:36:34,556] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:36:34,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:36:34,556] {logging_mixin.py:115} INFO - [2025-06-30 09:36:34,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:36:34,567] {logging_mixin.py:115} INFO - [2025-06-30 09:36:34,565] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:36:34,567] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:36:34,578] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.024 seconds
+[2025-06-30 09:37:04,737] {processor.py:153} INFO - Started process (PID=64) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:37:04,738] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:37:04,738] {logging_mixin.py:115} INFO - [2025-06-30 09:37:04,738] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:37:04,757] {logging_mixin.py:115} INFO - [2025-06-30 09:37:04,756] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:37:04,758] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:37:04,770] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.039 seconds
+[2025-06-30 09:37:34,921] {processor.py:153} INFO - Started process (PID=92) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:37:34,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:37:34,925] {logging_mixin.py:115} INFO - [2025-06-30 09:37:34,925] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:37:34,941] {logging_mixin.py:115} INFO - [2025-06-30 09:37:34,939] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:37:34,942] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:37:34,955] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.039 seconds
+[2025-06-30 09:38:05,095] {processor.py:153} INFO - Started process (PID=119) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:38:05,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:38:05,097] {logging_mixin.py:115} INFO - [2025-06-30 09:38:05,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:38:05,106] {logging_mixin.py:115} INFO - [2025-06-30 09:38:05,105] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:38:05,107] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:38:05,116] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.022 seconds
+[2025-06-30 09:38:35,298] {processor.py:153} INFO - Started process (PID=138) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:38:35,298] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:38:35,299] {logging_mixin.py:115} INFO - [2025-06-30 09:38:35,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:38:35,315] {logging_mixin.py:115} INFO - [2025-06-30 09:38:35,313] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:38:35,316] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:38:35,333] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.039 seconds
+[2025-06-30 09:39:05,469] {processor.py:153} INFO - Started process (PID=166) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:39:05,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:39:05,471] {logging_mixin.py:115} INFO - [2025-06-30 09:39:05,471] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:39:05,491] {logging_mixin.py:115} INFO - [2025-06-30 09:39:05,488] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:39:05,492] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:39:05,511] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.046 seconds
+[2025-06-30 09:39:35,658] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:39:35,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:39:35,660] {logging_mixin.py:115} INFO - [2025-06-30 09:39:35,659] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:39:35,678] {logging_mixin.py:115} INFO - [2025-06-30 09:39:35,676] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:39:35,679] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:39:35,694] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.040 seconds
+[2025-06-30 09:40:05,822] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:40:05,824] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:40:05,824] {logging_mixin.py:115} INFO - [2025-06-30 09:40:05,824] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:40:05,845] {logging_mixin.py:115} INFO - [2025-06-30 09:40:05,843] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:40:05,845] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:40:05,858] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.041 seconds
+[2025-06-30 09:40:36,042] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:40:36,043] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:40:36,044] {logging_mixin.py:115} INFO - [2025-06-30 09:40:36,044] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:40:36,064] {logging_mixin.py:115} INFO - [2025-06-30 09:40:36,063] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:40:36,065] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:40:36,079] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.041 seconds
+[2025-06-30 09:41:06,224] {processor.py:153} INFO - Started process (PID=278) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:41:06,225] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:41:06,225] {logging_mixin.py:115} INFO - [2025-06-30 09:41:06,225] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:41:06,232] {logging_mixin.py:115} INFO - [2025-06-30 09:41:06,231] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:41:06,232] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:41:06,241] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.018 seconds
+[2025-06-30 09:41:36,427] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:41:36,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:41:36,427] {logging_mixin.py:115} INFO - [2025-06-30 09:41:36,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:41:36,434] {logging_mixin.py:115} INFO - [2025-06-30 09:41:36,433] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:41:36,435] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:41:36,443] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.017 seconds
+[2025-06-30 09:42:06,613] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:42:06,614] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:42:06,614] {logging_mixin.py:115} INFO - [2025-06-30 09:42:06,614] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:42:06,633] {logging_mixin.py:115} INFO - [2025-06-30 09:42:06,631] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:42:06,633] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:42:06,649] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.041 seconds
+[2025-06-30 09:42:36,796] {processor.py:153} INFO - Started process (PID=352) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:42:36,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:42:36,797] {logging_mixin.py:115} INFO - [2025-06-30 09:42:36,797] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:42:36,811] {logging_mixin.py:115} INFO - [2025-06-30 09:42:36,809] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:42:36,812] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:42:36,827] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.034 seconds
+[2025-06-30 09:43:07,018] {processor.py:153} INFO - Started process (PID=380) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:43:07,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:43:07,019] {logging_mixin.py:115} INFO - [2025-06-30 09:43:07,019] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:43:07,039] {logging_mixin.py:115} INFO - [2025-06-30 09:43:07,037] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:43:07,040] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:43:07,054] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.042 seconds
+[2025-06-30 09:43:37,200] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:43:37,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:43:37,202] {logging_mixin.py:115} INFO - [2025-06-30 09:43:37,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:43:37,218] {logging_mixin.py:115} INFO - [2025-06-30 09:43:37,216] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:43:37,219] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:43:37,233] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.038 seconds
+[2025-06-30 09:44:07,369] {processor.py:153} INFO - Started process (PID=435) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:44:07,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:44:07,371] {logging_mixin.py:115} INFO - [2025-06-30 09:44:07,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:44:07,398] {logging_mixin.py:115} INFO - [2025-06-30 09:44:07,396] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:44:07,399] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:44:07,418] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.056 seconds
+[2025-06-30 09:44:37,597] {processor.py:153} INFO - Started process (PID=463) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:44:37,601] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:44:37,604] {logging_mixin.py:115} INFO - [2025-06-30 09:44:37,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:44:37,634] {logging_mixin.py:115} INFO - [2025-06-30 09:44:37,632] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:44:37,634] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:44:37,650] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.059 seconds
+[2025-06-30 09:45:32,321] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:45:32,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:45:32,322] {logging_mixin.py:115} INFO - [2025-06-30 09:45:32,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:45:32,332] {logging_mixin.py:115} INFO - [2025-06-30 09:45:32,330] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:45:32,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:45:32,340] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.023 seconds
+[2025-06-30 09:46:02,504] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:46:02,505] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:46:02,506] {logging_mixin.py:115} INFO - [2025-06-30 09:46:02,505] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:46:02,525] {logging_mixin.py:115} INFO - [2025-06-30 09:46:02,524] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:46:02,526] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:46:02,539] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.039 seconds
+[2025-06-30 09:46:32,708] {processor.py:153} INFO - Started process (PID=93) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:46:32,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:46:32,710] {logging_mixin.py:115} INFO - [2025-06-30 09:46:32,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:46:32,726] {logging_mixin.py:115} INFO - [2025-06-30 09:46:32,724] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:46:32,727] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:46:32,740] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.035 seconds
+[2025-06-30 09:47:02,880] {processor.py:153} INFO - Started process (PID=120) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:47:02,880] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:47:02,880] {logging_mixin.py:115} INFO - [2025-06-30 09:47:02,880] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:47:02,888] {logging_mixin.py:115} INFO - [2025-06-30 09:47:02,887] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/__init__.py", line 29, in <module>
+    from ccxt.base.exchange import Exchange                     # noqa: F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/__init__.py", line 24, in <module>
+    from ccxt.base import exchange
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/exchange.py", line 36, in <module>
+    from ccxt.base.types import ConstructorArgs, BalanceAccount, Currency, IndexType, OrderSide, OrderType, Trade, OrderRequest, Market, MarketType, Str, Num, Strings, CancellationRequest, Bool
+  File "/home/airflow/.local/lib/python3.7/site-packages/ccxt/base/types.py", line 579, in <module>
+    class ConstructorArgs(TypedDict, total=False):
+  File "/usr/local/lib/python3.7/typing.py", line 850, in __init_subclass__
+    super().__init_subclass__(*args, **kwargs)
+TypeError: __init_subclass__() takes no keyword arguments
+[2025-06-30 09:47:02,888] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:47:02,896] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.018 seconds
+[2025-06-30 09:49:11,500] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:49:11,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:49:11,501] {logging_mixin.py:115} INFO - [2025-06-30 09:49:11,501] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:49:12,434] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:49:12,485] {logging_mixin.py:115} INFO - [2025-06-30 09:49:12,485] {manager.py:508} INFO - Created Permission View: can read on DAG:crypto_dag
+[2025-06-30 09:49:12,489] {logging_mixin.py:115} INFO - [2025-06-30 09:49:12,489] {manager.py:508} INFO - Created Permission View: can delete on DAG:crypto_dag
+[2025-06-30 09:49:12,493] {logging_mixin.py:115} INFO - [2025-06-30 09:49:12,493] {manager.py:508} INFO - Created Permission View: can edit on DAG:crypto_dag
+[2025-06-30 09:49:12,493] {logging_mixin.py:115} INFO - [2025-06-30 09:49:12,493] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:49:12,496] {logging_mixin.py:115} INFO - [2025-06-30 09:49:12,496] {dag.py:2398} INFO - Creating ORM DAG for crypto_dag
+[2025-06-30 09:49:12,502] {logging_mixin.py:115} INFO - [2025-06-30 09:49:12,502] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:49:12,510] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 1.012 seconds
+[2025-06-30 09:49:42,692] {processor.py:153} INFO - Started process (PID=59) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:49:42,693] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:49:42,694] {logging_mixin.py:115} INFO - [2025-06-30 09:49:42,694] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:49:43,136] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:49:43,143] {logging_mixin.py:115} INFO - [2025-06-30 09:49:43,143] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:49:43,148] {logging_mixin.py:115} INFO - [2025-06-30 09:49:43,148] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:49:43,193] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.506 seconds
+[2025-06-30 09:50:13,355] {processor.py:153} INFO - Started process (PID=87) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:50:13,356] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:50:13,356] {logging_mixin.py:115} INFO - [2025-06-30 09:50:13,356] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:50:13,698] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:50:13,704] {logging_mixin.py:115} INFO - [2025-06-30 09:50:13,704] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:50:13,709] {logging_mixin.py:115} INFO - [2025-06-30 09:50:13,709] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:50:13,714] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.363 seconds
+[2025-06-30 09:50:43,868] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:50:43,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:50:43,869] {logging_mixin.py:115} INFO - [2025-06-30 09:50:43,869] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:50:44,198] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:50:44,206] {logging_mixin.py:115} INFO - [2025-06-30 09:50:44,205] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:50:44,211] {logging_mixin.py:115} INFO - [2025-06-30 09:50:44,211] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:50:44,215] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.352 seconds
+[2025-06-30 09:51:14,384] {processor.py:153} INFO - Started process (PID=140) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:51:14,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:51:14,385] {logging_mixin.py:115} INFO - [2025-06-30 09:51:14,384] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:51:14,685] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:51:14,692] {logging_mixin.py:115} INFO - [2025-06-30 09:51:14,692] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:51:14,698] {logging_mixin.py:115} INFO - [2025-06-30 09:51:14,698] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:51:14,702] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.320 seconds
+[2025-06-30 09:51:44,870] {processor.py:153} INFO - Started process (PID=159) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:51:44,871] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:51:44,872] {logging_mixin.py:115} INFO - [2025-06-30 09:51:44,872] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:51:45,241] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:51:45,248] {logging_mixin.py:115} INFO - [2025-06-30 09:51:45,248] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:51:45,253] {logging_mixin.py:115} INFO - [2025-06-30 09:51:45,253] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:51:45,258] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.392 seconds
+[2025-06-30 09:52:15,417] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:52:15,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:52:15,420] {logging_mixin.py:115} INFO - [2025-06-30 09:52:15,420] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:52:15,798] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:52:15,804] {logging_mixin.py:115} INFO - [2025-06-30 09:52:15,804] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:52:15,810] {logging_mixin.py:115} INFO - [2025-06-30 09:52:15,810] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:52:15,815] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.402 seconds
+[2025-06-30 09:53:51,894] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:53:51,894] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:53:51,895] {logging_mixin.py:115} INFO - [2025-06-30 09:53:51,895] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:53:51,896] {logging_mixin.py:115} INFO - [2025-06-30 09:53:51,896] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+ModuleNotFoundError: No module named 'ccxt'
+[2025-06-30 09:53:51,896] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:53:51,907] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.014 seconds
+[2025-06-30 09:54:53,877] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:54:53,878] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:54:53,878] {logging_mixin.py:115} INFO - [2025-06-30 09:54:53,878] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:54:54,722] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:54:54,760] {logging_mixin.py:115} INFO - [2025-06-30 09:54:54,760] {manager.py:508} INFO - Created Permission View: can edit on DAG:crypto_dag
+[2025-06-30 09:54:54,764] {logging_mixin.py:115} INFO - [2025-06-30 09:54:54,764] {manager.py:508} INFO - Created Permission View: can read on DAG:crypto_dag
+[2025-06-30 09:54:54,768] {logging_mixin.py:115} INFO - [2025-06-30 09:54:54,767] {manager.py:508} INFO - Created Permission View: can delete on DAG:crypto_dag
+[2025-06-30 09:54:54,768] {logging_mixin.py:115} INFO - [2025-06-30 09:54:54,768] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:54:54,771] {logging_mixin.py:115} INFO - [2025-06-30 09:54:54,771] {dag.py:2398} INFO - Creating ORM DAG for crypto_dag
+[2025-06-30 09:54:54,777] {logging_mixin.py:115} INFO - [2025-06-30 09:54:54,777] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T08:00:00+00:00, run_after=2025-06-30T09:00:00+00:00
+[2025-06-30 09:54:54,784] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.909 seconds
+[2025-06-30 09:55:24,970] {processor.py:153} INFO - Started process (PID=60) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:55:24,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:55:24,972] {logging_mixin.py:115} INFO - [2025-06-30 09:55:24,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:55:25,344] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:55:25,351] {logging_mixin.py:115} INFO - [2025-06-30 09:55:25,351] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:55:25,356] {logging_mixin.py:115} INFO - [2025-06-30 09:55:25,356] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:55:25,361] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.396 seconds
+[2025-06-30 09:55:55,524] {processor.py:153} INFO - Started process (PID=87) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:55:55,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:55:55,527] {logging_mixin.py:115} INFO - [2025-06-30 09:55:55,527] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:55:55,871] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:55:55,878] {logging_mixin.py:115} INFO - [2025-06-30 09:55:55,877] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:55:55,883] {logging_mixin.py:115} INFO - [2025-06-30 09:55:55,883] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:55:55,889] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.373 seconds
+[2025-06-30 09:56:26,078] {processor.py:153} INFO - Started process (PID=114) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:56:26,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:56:26,081] {logging_mixin.py:115} INFO - [2025-06-30 09:56:26,081] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:56:26,448] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:56:26,456] {logging_mixin.py:115} INFO - [2025-06-30 09:56:26,456] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:56:26,462] {logging_mixin.py:115} INFO - [2025-06-30 09:56:26,462] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:56:26,507] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.434 seconds
+[2025-06-30 09:56:56,690] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:56:56,691] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:56:56,691] {logging_mixin.py:115} INFO - [2025-06-30 09:56:56,691] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:56:57,040] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:56:57,048] {logging_mixin.py:115} INFO - [2025-06-30 09:56:57,047] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:56:57,054] {logging_mixin.py:115} INFO - [2025-06-30 09:56:57,054] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:56:57,059] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.373 seconds
+[2025-06-30 09:57:27,274] {processor.py:153} INFO - Started process (PID=161) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:57:27,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:57:27,277] {logging_mixin.py:115} INFO - [2025-06-30 09:57:27,277] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:57:27,667] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:57:27,675] {logging_mixin.py:115} INFO - [2025-06-30 09:57:27,675] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:57:27,682] {logging_mixin.py:115} INFO - [2025-06-30 09:57:27,682] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:57:27,686] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.419 seconds
+[2025-06-30 09:57:57,840] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:57:57,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:57:57,841] {logging_mixin.py:115} INFO - [2025-06-30 09:57:57,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:57:58,130] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:57:58,137] {logging_mixin.py:115} INFO - [2025-06-30 09:57:58,137] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:57:58,143] {logging_mixin.py:115} INFO - [2025-06-30 09:57:58,143] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:57:58,147] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.311 seconds
+[2025-06-30 09:58:28,316] {processor.py:153} INFO - Started process (PID=214) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:58:28,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:58:28,322] {logging_mixin.py:115} INFO - [2025-06-30 09:58:28,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:58:28,669] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:58:28,675] {logging_mixin.py:115} INFO - [2025-06-30 09:58:28,675] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:58:28,681] {logging_mixin.py:115} INFO - [2025-06-30 09:58:28,681] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:58:28,685] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.374 seconds
+[2025-06-30 09:58:58,861] {processor.py:153} INFO - Started process (PID=242) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:58:58,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:58:58,863] {logging_mixin.py:115} INFO - [2025-06-30 09:58:58,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:58:59,228] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:58:59,235] {logging_mixin.py:115} INFO - [2025-06-30 09:58:59,235] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:58:59,241] {logging_mixin.py:115} INFO - [2025-06-30 09:58:59,241] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:58:59,247] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.391 seconds
+[2025-06-30 09:59:29,412] {processor.py:153} INFO - Started process (PID=269) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:59:29,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:59:29,415] {logging_mixin.py:115} INFO - [2025-06-30 09:59:29,415] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:59:29,743] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:59:29,750] {logging_mixin.py:115} INFO - [2025-06-30 09:59:29,750] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 09:59:29,756] {logging_mixin.py:115} INFO - [2025-06-30 09:59:29,756] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 09:59:29,761] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.354 seconds
+[2025-06-30 09:59:59,939] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 09:59:59,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 09:59:59,941] {logging_mixin.py:115} INFO - [2025-06-30 09:59:59,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:00:00,290] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:00:00,298] {logging_mixin.py:115} INFO - [2025-06-30 10:00:00,298] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:00:00,304] {logging_mixin.py:115} INFO - [2025-06-30 10:00:00,304] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:00:00,308] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.372 seconds
+[2025-06-30 10:00:30,474] {processor.py:153} INFO - Started process (PID=322) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:00:30,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:00:30,476] {logging_mixin.py:115} INFO - [2025-06-30 10:00:30,476] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:00:30,823] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:00:30,831] {logging_mixin.py:115} INFO - [2025-06-30 10:00:30,831] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:00:30,838] {logging_mixin.py:115} INFO - [2025-06-30 10:00:30,838] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:00:30,844] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.377 seconds
+[2025-06-30 10:01:01,032] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:01:01,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:01:01,035] {logging_mixin.py:115} INFO - [2025-06-30 10:01:01,034] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:01:01,411] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:01:01,418] {logging_mixin.py:115} INFO - [2025-06-30 10:01:01,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:01:01,424] {logging_mixin.py:115} INFO - [2025-06-30 10:01:01,424] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:01:01,428] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.402 seconds
+[2025-06-30 10:01:31,608] {processor.py:153} INFO - Started process (PID=376) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:01:31,610] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:01:31,610] {logging_mixin.py:115} INFO - [2025-06-30 10:01:31,610] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:01:32,018] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:01:32,030] {logging_mixin.py:115} INFO - [2025-06-30 10:01:32,029] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:01:32,041] {logging_mixin.py:115} INFO - [2025-06-30 10:01:32,041] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:01:32,046] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.439 seconds
+[2025-06-30 10:02:02,228] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:02:02,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:02:02,231] {logging_mixin.py:115} INFO - [2025-06-30 10:02:02,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:02:02,624] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:02:02,631] {logging_mixin.py:115} INFO - [2025-06-30 10:02:02,631] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:02:02,636] {logging_mixin.py:115} INFO - [2025-06-30 10:02:02,636] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:02:02,640] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.417 seconds
+[2025-06-30 10:02:32,803] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:02:32,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:02:32,806] {logging_mixin.py:115} INFO - [2025-06-30 10:02:32,806] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:02:33,135] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:02:33,141] {logging_mixin.py:115} INFO - [2025-06-30 10:02:33,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:02:33,147] {logging_mixin.py:115} INFO - [2025-06-30 10:02:33,147] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:02:33,151] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.351 seconds
+[2025-06-30 10:03:03,317] {processor.py:153} INFO - Started process (PID=448) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:03:03,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:03:03,320] {logging_mixin.py:115} INFO - [2025-06-30 10:03:03,320] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:03:03,675] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:03:03,682] {logging_mixin.py:115} INFO - [2025-06-30 10:03:03,682] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:03:03,687] {logging_mixin.py:115} INFO - [2025-06-30 10:03:03,687] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:03:03,692] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.381 seconds
+[2025-06-30 10:03:33,859] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:03:33,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:03:33,860] {logging_mixin.py:115} INFO - [2025-06-30 10:03:33,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:03:34,156] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:03:34,162] {logging_mixin.py:115} INFO - [2025-06-30 10:03:34,162] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:03:34,168] {logging_mixin.py:115} INFO - [2025-06-30 10:03:34,168] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:03:34,172] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.315 seconds
+[2025-06-30 10:04:04,370] {processor.py:153} INFO - Started process (PID=500) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:04:04,372] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:04:04,372] {logging_mixin.py:115} INFO - [2025-06-30 10:04:04,372] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:04:04,703] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:04:04,710] {logging_mixin.py:115} INFO - [2025-06-30 10:04:04,710] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:04:04,715] {logging_mixin.py:115} INFO - [2025-06-30 10:04:04,715] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:04:04,722] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.357 seconds
+[2025-06-30 10:04:34,880] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:04:34,882] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:04:34,883] {logging_mixin.py:115} INFO - [2025-06-30 10:04:34,883] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:04:35,226] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:04:35,232] {logging_mixin.py:115} INFO - [2025-06-30 10:04:35,232] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:04:35,238] {logging_mixin.py:115} INFO - [2025-06-30 10:04:35,238] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:04:35,246] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.371 seconds
+[2025-06-30 10:05:05,410] {processor.py:153} INFO - Started process (PID=556) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:05:05,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:05:05,412] {logging_mixin.py:115} INFO - [2025-06-30 10:05:05,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:05:05,768] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:05:05,775] {logging_mixin.py:115} INFO - [2025-06-30 10:05:05,775] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:05:05,780] {logging_mixin.py:115} INFO - [2025-06-30 10:05:05,780] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:05:05,788] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.381 seconds
+[2025-06-30 10:05:35,960] {processor.py:153} INFO - Started process (PID=584) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:05:35,961] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:05:35,961] {logging_mixin.py:115} INFO - [2025-06-30 10:05:35,961] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:05:36,279] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:05:36,286] {logging_mixin.py:115} INFO - [2025-06-30 10:05:36,285] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:05:36,291] {logging_mixin.py:115} INFO - [2025-06-30 10:05:36,291] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:05:36,296] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.344 seconds
+[2025-06-30 10:06:06,472] {processor.py:153} INFO - Started process (PID=603) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:06:06,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:06:06,474] {logging_mixin.py:115} INFO - [2025-06-30 10:06:06,474] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:06:06,816] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:06:06,823] {logging_mixin.py:115} INFO - [2025-06-30 10:06:06,822] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:06:06,828] {logging_mixin.py:115} INFO - [2025-06-30 10:06:06,828] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:06:06,832] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.369 seconds
+[2025-06-30 10:06:37,007] {processor.py:153} INFO - Started process (PID=630) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:06:37,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:06:37,010] {logging_mixin.py:115} INFO - [2025-06-30 10:06:37,010] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:06:37,328] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:06:37,335] {logging_mixin.py:115} INFO - [2025-06-30 10:06:37,335] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:06:37,340] {logging_mixin.py:115} INFO - [2025-06-30 10:06:37,340] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:06:37,344] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.342 seconds
+[2025-06-30 10:07:07,602] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:07:07,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:07:07,604] {logging_mixin.py:115} INFO - [2025-06-30 10:07:07,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:07:07,921] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:07:07,928] {logging_mixin.py:115} INFO - [2025-06-30 10:07:07,928] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:07:07,934] {logging_mixin.py:115} INFO - [2025-06-30 10:07:07,934] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:07:07,939] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.343 seconds
+[2025-06-30 10:07:38,183] {processor.py:153} INFO - Started process (PID=682) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:07:38,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:07:38,185] {logging_mixin.py:115} INFO - [2025-06-30 10:07:38,185] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:07:38,514] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:07:38,521] {logging_mixin.py:115} INFO - [2025-06-30 10:07:38,521] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:07:38,527] {logging_mixin.py:115} INFO - [2025-06-30 10:07:38,527] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:07:38,531] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.355 seconds
+[2025-06-30 10:08:08,737] {processor.py:153} INFO - Started process (PID=708) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:08:08,738] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:08:08,738] {logging_mixin.py:115} INFO - [2025-06-30 10:08:08,738] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:08:09,168] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:08:09,175] {logging_mixin.py:115} INFO - [2025-06-30 10:08:09,175] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:08:09,182] {logging_mixin.py:115} INFO - [2025-06-30 10:08:09,182] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:08:09,186] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.453 seconds
+[2025-06-30 10:08:39,435] {processor.py:153} INFO - Started process (PID=735) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:08:39,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:08:39,438] {logging_mixin.py:115} INFO - [2025-06-30 10:08:39,438] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:08:39,772] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:08:39,778] {logging_mixin.py:115} INFO - [2025-06-30 10:08:39,778] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:08:39,783] {logging_mixin.py:115} INFO - [2025-06-30 10:08:39,783] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:08:39,787] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.358 seconds
+[2025-06-30 10:09:10,097] {processor.py:153} INFO - Started process (PID=762) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:09:10,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:09:10,098] {logging_mixin.py:115} INFO - [2025-06-30 10:09:10,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:09:10,413] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:09:10,420] {logging_mixin.py:115} INFO - [2025-06-30 10:09:10,419] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:09:10,425] {logging_mixin.py:115} INFO - [2025-06-30 10:09:10,425] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:09:10,429] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.333 seconds
+[2025-06-30 10:09:40,719] {processor.py:153} INFO - Started process (PID=789) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:09:40,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:09:40,721] {logging_mixin.py:115} INFO - [2025-06-30 10:09:40,721] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:09:41,067] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:09:41,076] {logging_mixin.py:115} INFO - [2025-06-30 10:09:41,075] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:09:41,081] {logging_mixin.py:115} INFO - [2025-06-30 10:09:41,081] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:09:41,085] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.370 seconds
+[2025-06-30 10:10:11,366] {processor.py:153} INFO - Started process (PID=816) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:10:11,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:10:11,367] {logging_mixin.py:115} INFO - [2025-06-30 10:10:11,367] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:10:11,734] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:10:11,743] {logging_mixin.py:115} INFO - [2025-06-30 10:10:11,742] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:10:11,749] {logging_mixin.py:115} INFO - [2025-06-30 10:10:11,749] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:10:11,753] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.388 seconds
+[2025-06-30 10:10:41,925] {processor.py:153} INFO - Started process (PID=835) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:10:41,926] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:10:41,927] {logging_mixin.py:115} INFO - [2025-06-30 10:10:41,926] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:10:42,304] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:10:42,316] {logging_mixin.py:115} INFO - [2025-06-30 10:10:42,316] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:10:42,323] {logging_mixin.py:115} INFO - [2025-06-30 10:10:42,323] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:10:42,329] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.409 seconds
+[2025-06-30 10:11:12,500] {processor.py:153} INFO - Started process (PID=860) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:11:12,502] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:11:12,502] {logging_mixin.py:115} INFO - [2025-06-30 10:11:12,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:11:12,872] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:11:12,880] {logging_mixin.py:115} INFO - [2025-06-30 10:11:12,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:11:12,885] {logging_mixin.py:115} INFO - [2025-06-30 10:11:12,885] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:11:12,893] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.399 seconds
+[2025-06-30 10:11:43,048] {processor.py:153} INFO - Started process (PID=887) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:11:43,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:11:43,049] {logging_mixin.py:115} INFO - [2025-06-30 10:11:43,049] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:11:43,412] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:11:43,419] {logging_mixin.py:115} INFO - [2025-06-30 10:11:43,419] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:11:43,424] {logging_mixin.py:115} INFO - [2025-06-30 10:11:43,424] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:11:43,428] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.383 seconds
+[2025-06-30 10:12:13,610] {processor.py:153} INFO - Started process (PID=914) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:12:13,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:12:13,614] {logging_mixin.py:115} INFO - [2025-06-30 10:12:13,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:12:13,971] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:12:13,981] {logging_mixin.py:115} INFO - [2025-06-30 10:12:13,980] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:12:13,988] {logging_mixin.py:115} INFO - [2025-06-30 10:12:13,988] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:12:13,992] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.387 seconds
+[2025-06-30 10:12:44,169] {processor.py:153} INFO - Started process (PID=941) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:12:44,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:12:44,171] {logging_mixin.py:115} INFO - [2025-06-30 10:12:44,171] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:12:44,509] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:12:44,516] {logging_mixin.py:115} INFO - [2025-06-30 10:12:44,516] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:12:44,522] {logging_mixin.py:115} INFO - [2025-06-30 10:12:44,522] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:12:44,528] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.362 seconds
+[2025-06-30 10:13:14,707] {processor.py:153} INFO - Started process (PID=968) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:13:14,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:13:14,708] {logging_mixin.py:115} INFO - [2025-06-30 10:13:14,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:13:15,077] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:13:15,085] {logging_mixin.py:115} INFO - [2025-06-30 10:13:15,085] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:13:15,091] {logging_mixin.py:115} INFO - [2025-06-30 10:13:15,091] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:13:15,098] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.395 seconds
+[2025-06-30 10:13:45,267] {processor.py:153} INFO - Started process (PID=995) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:13:45,269] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:13:45,270] {logging_mixin.py:115} INFO - [2025-06-30 10:13:45,270] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:13:45,689] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:13:45,696] {logging_mixin.py:115} INFO - [2025-06-30 10:13:45,696] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:13:45,702] {logging_mixin.py:115} INFO - [2025-06-30 10:13:45,702] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T09:00:00+00:00, run_after=2025-06-30T10:00:00+00:00
+[2025-06-30 10:13:45,707] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.447 seconds
+[2025-06-30 10:14:15,884] {processor.py:153} INFO - Started process (PID=1026) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:14:15,884] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:14:15,885] {logging_mixin.py:115} INFO - [2025-06-30 10:14:15,885] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:14:16,192] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:14:16,198] {logging_mixin.py:115} INFO - [2025-06-30 10:14:16,198] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:14:16,204] {logging_mixin.py:115} INFO - [2025-06-30 10:14:16,204] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:14:16,208] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.329 seconds
+[2025-06-30 10:14:46,408] {processor.py:153} INFO - Started process (PID=1051) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:14:46,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:14:46,409] {logging_mixin.py:115} INFO - [2025-06-30 10:14:46,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:14:46,753] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:14:46,761] {logging_mixin.py:115} INFO - [2025-06-30 10:14:46,761] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:14:46,767] {logging_mixin.py:115} INFO - [2025-06-30 10:14:46,767] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:14:46,775] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.368 seconds
+[2025-06-30 10:15:16,946] {processor.py:153} INFO - Started process (PID=1071) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:15:16,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:15:16,948] {logging_mixin.py:115} INFO - [2025-06-30 10:15:16,948] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:15:17,280] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:15:17,286] {logging_mixin.py:115} INFO - [2025-06-30 10:15:17,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:15:17,292] {logging_mixin.py:115} INFO - [2025-06-30 10:15:17,292] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:15:17,295] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.355 seconds
+[2025-06-30 10:15:47,507] {processor.py:153} INFO - Started process (PID=1098) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:15:47,508] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:15:47,509] {logging_mixin.py:115} INFO - [2025-06-30 10:15:47,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:15:47,877] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:15:47,883] {logging_mixin.py:115} INFO - [2025-06-30 10:15:47,883] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:15:47,889] {logging_mixin.py:115} INFO - [2025-06-30 10:15:47,889] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:15:47,894] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.390 seconds
+[2025-06-30 10:16:18,060] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:16:18,061] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:16:18,061] {logging_mixin.py:115} INFO - [2025-06-30 10:16:18,061] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:16:18,399] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:16:18,407] {logging_mixin.py:115} INFO - [2025-06-30 10:16:18,406] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:16:18,412] {logging_mixin.py:115} INFO - [2025-06-30 10:16:18,412] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:16:18,416] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.360 seconds
+[2025-06-30 10:16:48,583] {processor.py:153} INFO - Started process (PID=1151) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:16:48,585] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:16:48,586] {logging_mixin.py:115} INFO - [2025-06-30 10:16:48,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:16:48,917] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:16:48,924] {logging_mixin.py:115} INFO - [2025-06-30 10:16:48,924] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:16:48,929] {logging_mixin.py:115} INFO - [2025-06-30 10:16:48,929] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:16:48,933] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.356 seconds
+[2025-06-30 10:17:19,104] {processor.py:153} INFO - Started process (PID=1178) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:17:19,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:17:19,107] {logging_mixin.py:115} INFO - [2025-06-30 10:17:19,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:17:19,448] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:17:19,455] {logging_mixin.py:115} INFO - [2025-06-30 10:17:19,455] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:17:19,460] {logging_mixin.py:115} INFO - [2025-06-30 10:17:19,460] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:17:19,465] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.366 seconds
+[2025-06-30 10:17:49,604] {processor.py:153} INFO - Started process (PID=1205) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:17:49,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:17:49,606] {logging_mixin.py:115} INFO - [2025-06-30 10:17:49,606] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:17:49,941] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:17:49,948] {logging_mixin.py:115} INFO - [2025-06-30 10:17:49,948] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:17:49,953] {logging_mixin.py:115} INFO - [2025-06-30 10:17:49,953] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:17:49,958] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.357 seconds
+[2025-06-30 10:18:20,098] {processor.py:153} INFO - Started process (PID=1232) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:18:20,100] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:18:20,100] {logging_mixin.py:115} INFO - [2025-06-30 10:18:20,100] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:18:20,458] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:18:20,465] {logging_mixin.py:115} INFO - [2025-06-30 10:18:20,465] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:18:20,471] {logging_mixin.py:115} INFO - [2025-06-30 10:18:20,471] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:18:20,475] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.381 seconds
+[2025-06-30 10:18:50,646] {processor.py:153} INFO - Started process (PID=1259) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:18:50,647] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:18:50,647] {logging_mixin.py:115} INFO - [2025-06-30 10:18:50,647] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:18:51,088] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:18:51,096] {logging_mixin.py:115} INFO - [2025-06-30 10:18:51,096] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:18:51,103] {logging_mixin.py:115} INFO - [2025-06-30 10:18:51,103] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:18:51,111] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.467 seconds
+[2025-06-30 10:19:21,292] {processor.py:153} INFO - Started process (PID=1278) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:19:21,294] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:19:21,295] {logging_mixin.py:115} INFO - [2025-06-30 10:19:21,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:19:21,678] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:19:21,685] {logging_mixin.py:115} INFO - [2025-06-30 10:19:21,685] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:19:21,692] {logging_mixin.py:115} INFO - [2025-06-30 10:19:21,692] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:19:21,696] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.408 seconds
+[2025-06-30 10:19:51,859] {processor.py:153} INFO - Started process (PID=1305) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:19:51,860] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:19:51,861] {logging_mixin.py:115} INFO - [2025-06-30 10:19:51,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:19:52,280] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:19:52,286] {logging_mixin.py:115} INFO - [2025-06-30 10:19:52,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:19:52,292] {logging_mixin.py:115} INFO - [2025-06-30 10:19:52,292] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:19:52,296] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.441 seconds
+[2025-06-30 10:20:22,493] {processor.py:153} INFO - Started process (PID=1332) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:20:22,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:20:22,497] {logging_mixin.py:115} INFO - [2025-06-30 10:20:22,497] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:20:22,855] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:20:22,861] {logging_mixin.py:115} INFO - [2025-06-30 10:20:22,861] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:20:22,867] {logging_mixin.py:115} INFO - [2025-06-30 10:20:22,867] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:20:22,871] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.382 seconds
+[2025-06-30 10:20:53,050] {processor.py:153} INFO - Started process (PID=1358) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:20:53,052] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:20:53,053] {logging_mixin.py:115} INFO - [2025-06-30 10:20:53,053] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:20:53,395] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:20:53,401] {logging_mixin.py:115} INFO - [2025-06-30 10:20:53,401] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:20:53,407] {logging_mixin.py:115} INFO - [2025-06-30 10:20:53,407] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:20:53,410] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.365 seconds
+[2025-06-30 10:21:23,573] {processor.py:153} INFO - Started process (PID=1384) to work on /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:21:23,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-06-30 10:21:23,576] {logging_mixin.py:115} INFO - [2025-06-30 10:21:23,576] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:21:23,890] {processor.py:651} INFO - DAG(s) dict_keys(['crypto_dag']) retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-06-30 10:21:23,897] {logging_mixin.py:115} INFO - [2025-06-30 10:21:23,896] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-06-30 10:21:23,902] {logging_mixin.py:115} INFO - [2025-06-30 10:21:23,902] {dag.py:2927} INFO - Setting next_dagrun for crypto_dag to 2025-06-30T10:00:00+00:00, run_after=2025-06-30T11:00:00+00:00
+[2025-06-30 10:21:23,906] {processor.py:161} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.336 seconds
