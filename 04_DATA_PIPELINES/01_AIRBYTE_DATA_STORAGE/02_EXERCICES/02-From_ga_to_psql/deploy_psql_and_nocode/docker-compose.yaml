@@ -1,0 +1,33 @@
+version: "3"
+services:
+  no_codb:
+    container_name: nocode_db
+    image: nocodb/nocodb:latest
+    ports:
+      - "8080:8080"
+    restart: always
+    depends_on:
+      - "postgres"
+    volumes:
+      - nc_data:/usr/app/data
+    environment:
+      NC_DB: "pg://host.docker.internal:5434?u=postgres&p=postgres&d=root_db"
+
+  postgres:
+    container_name: postgres
+    environment:
+      POSTGRES_DB: root_db
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    ports:
+      - published: 5434
+        target: 5432
+    restart: unless-stopped
+    volumes:
+      - postgres_data:/var/lib/postgresql/data:rw
+volumes:
+  postgres_data:
+    external: true
+  nc_data:
+    external: true
