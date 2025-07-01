@@ -17,7 +17,7 @@ from airflow.hooks.S3_hook import S3Hook
 from airflow.models import Variable
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
-from airflow.operators.postgres_operator import PostgresOperator
+from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 from s3_to_postgres import S3ToPostgresOperator
 from airflow.utils.task_group import TaskGroup
 
@@ -142,7 +142,7 @@ with DAG(dag_id="etl_dag", default_args=default_args, schedule_interval="@hourly
             python_callable=_transform_weather_data
         )
 
-        create_weather_table = PostgresOperator(
+        create_weather_table = SQLExecuteQueryOperator(
             task_id="create_weather_table",
             # In the SQL do not forget to put `IF NOT EXISTS`
             sql="""
@@ -164,7 +164,7 @@ with DAG(dag_id="etl_dag", default_args=default_args, schedule_interval="@hourly
                 description VARCHAR
             )
             """,
-            postgres_conn_id="neon_default",
+            conn_id="neon_default",
         )
 
         transfer_weather_data_to_postgres = S3ToPostgresOperator(
@@ -183,7 +183,7 @@ with DAG(dag_id="etl_dag", default_args=default_args, schedule_interval="@hourly
 
         transform_status_data = PythonOperator(task_id="transform_status_data", python_callable=_transform_status_data)
 
-        create_status_table = PostgresOperator(
+        create_status_table = SQLExecuteQueryOperator(
             task_id="create_status_table",
             sql="""
             CREATE TABLE IF NOT EXISTS status_station (
@@ -194,7 +194,7 @@ with DAG(dag_id="etl_dag", default_args=default_args, schedule_interval="@hourly
                 docks_available INTEGER
             )
             """,
-            postgres_conn_id="neon_default",
+            conn_id="neon_default",
         )
 
         transfer_status_data_to_postgres = S3ToPostgresOperator(
