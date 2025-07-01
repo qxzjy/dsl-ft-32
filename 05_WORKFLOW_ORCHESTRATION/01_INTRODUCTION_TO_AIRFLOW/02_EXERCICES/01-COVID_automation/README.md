@@ -6,5 +6,5 @@ docker-compose up airflow-init
 
 2. Start local Airflow Docker :
 ```shell
-docker-compose up
+docker-compose up -d
 ```

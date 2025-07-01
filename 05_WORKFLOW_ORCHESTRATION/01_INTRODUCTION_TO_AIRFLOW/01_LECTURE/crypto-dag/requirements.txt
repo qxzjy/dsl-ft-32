@@ -1,2 +1,2 @@
-ccxt
+ccxt==1.85.*
 pandas
