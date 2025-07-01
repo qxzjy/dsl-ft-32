@@ -56,7 +56,7 @@ with DAG(
         task_id="create_neon_table",
         postgres_conn_id="neon_default", 
         sql="""
-            CREATE TABLE IF NOT EXISTS public.airflow (
+            CREATE TABLE IF NOT EXISTS public.airflow_lecture (
                 first_name VARCHAR,
                 last_name VARCHAR
             );
@@ -65,7 +65,7 @@ with DAG(
     
     load_data_to_neon = S3ToPostgresOperator(
         task_id="load_data_to_neon",
-        table="airflow",
+        table="airflow_lecture",
         bucket="{{ var.value.S3BucketName }}",
         key="my_csv_file.csv",
         postgres_conn_id="neon_default",
